@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /*
+        *{
+            background: rgb(139, 139, 254);
+            color: white; /*O plano de fundo da página fica azul e a cor das letras, em geral, ficam brancas
+        }
+        */
+        p {
+            background: yellow;
+            color: black;
+        }
+
+        .cor{
+            background: green;
+        }
+        /*div.cor{
+           background: vermelho; 
+           somente div com a classe "cor" ficaria vermelho
+        }*/
+        /*li, span{
+            background: green;
+            todas as listas e spans ficariam verdes
+        }*/
+        #paragrafo1{
+            background: blue;
+            color: white;
+        }
+        div li {
+            background: yellow;
+        } /*Afeta todos os elementos da lista em uma div. Isso se chama child selector*/
+
+        .cor-fundo{
+            background: red;
+        }
+        .titulo {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>Este é o conteúdo de um elemento div.</div>
+    <div>E temos aqui outro elemento div.</div>
+    <span class="cor">Este é um texto dentro de um elemento span.</span>
+
+    <div>
+        <p class = "titulo cor-fundo">TÍTULO</p>
+    </div>
+    <div>
+        <p id="paragrafo1">teste</p>
+    </div>
+
+    <div>
+        <ul>
+            <li>Primeiro elemento de uma lista.</li>
+            <li>Segundo elemento de uma lista.</li>
+            <li>Terceito elemento de uma lista.</li>
+            <li>Quarto elemento de uma lista.</li>
+            <li>Quinto elemento de uma lista.</li>
+        </ul>
+    </div>
+
+    <p>Fim do exercício sobre seletores.</p>
+
+</body>
+
+</html>
